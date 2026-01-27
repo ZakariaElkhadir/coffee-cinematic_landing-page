@@ -81,6 +81,7 @@ export function Footer() {
 
       <div className="footer-item w-full text-center mt-24 text-xs opacity-30">
         &copy; {new Date().getFullYear()} Cinematic Coffee. All rights reserved.
+        | Developed by Zakaria Elkhadir
       </div>
     </footer>
   );

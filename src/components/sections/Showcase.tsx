@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/Button";
 gsap.registerPlugin(ScrollTrigger);
 
 export function Showcase() {
-  const sectionRef = useRef<HTMLSectionElement>(null);
+  const sectionRef = useRef<HTMLOptionElement>(null);
   const imageRef = useRef<HTMLImageElement>(null);
 
   useGSAP(
