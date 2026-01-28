@@ -44,7 +44,7 @@ This project uses a modern, high-performance stack:
 1.  **Clone the repository**
 
     ```bash
-    git clone https://github.com/your-username/coffee-cinematic.git
+    git clone https://github.com/ZakariaELkhadir/coffee-cinematic.git
     cd coffee-cinematic
     ```
 
