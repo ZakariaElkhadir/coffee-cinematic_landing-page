@@ -62,7 +62,7 @@ export function Hero() {
       </div>
 
       <div className="hero-content relative z-10 flex flex-col items-center text-center opacity-0">
-        <span className="mb-4 text-sm uppercase tracking-[0.2em] text-coffee-accent">
+        <span className="mb-4 text-sm uppercase tracking-[0.2em] text-coffee-accent font-serif italic">
           Est. 1987
         </span>
         <h1 className="mb-8 max-w-4xl text-5xl font-bold leading-tight text-coffee-cream md:text-7xl lg:text-8xl">
