@@ -46,7 +46,7 @@ export function Hero() {
   return (
     <section
       ref={containerRef}
-      className="relative flex h-screen w-full items-center justify-center overflow-hidden bg-coffee-dark px-4"
+      className="relative flex h-[100svh] w-full items-center justify-center overflow-hidden bg-coffee-dark px-4"
     >
       {/* Background with animated gradient overlay */}
       <div ref={videoRef} className="absolute inset-0 z-0">
@@ -65,14 +65,14 @@ export function Hero() {
         <span className="mb-4 text-sm uppercase tracking-[0.2em] text-coffee-accent font-serif italic">
           Est. 1987
         </span>
-        <h1 className="mb-8 max-w-4xl text-5xl font-bold leading-tight text-coffee-cream md:text-7xl lg:text-8xl">
+        <h1 className="mb-6 md:mb-8 max-w-4xl text-4xl font-bold leading-tight text-coffee-cream md:text-7xl lg:text-8xl">
           <SplitText delay={0.5}>The Art of</SplitText>
           <br />
           <SplitText delay={1.0} className="font-serif italic text-coffee-gold">
             Coffee Making
           </SplitText>
         </h1>
-        <p className="mb-10 max-w-lg text-lg text-coffee-cream/80 md:text-xl">
+        <p className="mb-8 md:mb-10 max-w-lg text-base md:text-xl text-coffee-cream/80">
           Experience the journey from bean to cup. A cinematic exploration of
           flavor, aroma, and tradition.
         </p>
@@ -87,7 +87,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="hero-btn absolute bottom-10 left-1/2 -translate-x-1/2 text-coffee-cream/50 animate-bounce">
+      <div className="hero-btn absolute bottom-8 md:bottom-10 left-[45%] md:left-1/2 transform -translate-x-1/2 text-coffee-cream/50 animate-bounce text-center z-20">
         <div className="flex flex-col items-center gap-2">
           <span className="text-[10px] uppercase tracking-widest">Scroll</span>
           <MoveDown className="h-4 w-4" />

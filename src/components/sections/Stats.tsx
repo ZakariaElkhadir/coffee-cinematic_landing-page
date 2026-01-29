@@ -66,7 +66,7 @@ export function Stats() {
   return (
     <section
       ref={sectionRef}
-      className="bg-coffee-dark text-coffee-cream py-32 px-4"
+      className="bg-coffee-dark text-coffee-cream py-16 md:py-32 px-4"
     >
       <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
         {stats.map((stat, index) => (
@@ -75,7 +75,7 @@ export function Stats() {
             className="stat-item flex flex-col items-center text-center space-y-2"
           >
             <span
-              className="stat-value text-6xl md:text-8xl font-bold font-serif text-coffee-gold"
+              className="stat-value text-5xl md:text-8xl font-bold font-serif text-coffee-gold"
               data-value={stat.value}
             >
               0

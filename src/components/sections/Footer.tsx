@@ -32,12 +32,12 @@ export function Footer() {
   return (
     <footer
       ref={footerRef}
-      className="relative w-full bg-coffee-dark px-4 py-24 text-coffee-cream overflow-hidden"
+      className="relative w-full bg-coffee-dark px-4 py-12 md:py-24 text-coffee-cream overflow-hidden"
     >
       {/* Background elements */}
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-coffee-gold/20 to-transparent" />
 
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 md:gap-12">
         <div className="footer-item flex flex-col items-center md:items-start text-center md:text-left">
           <h3 className="text-4xl font-serif font-bold text-coffee-gold mb-4">
             Cinematic Coffee

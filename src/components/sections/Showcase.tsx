@@ -62,7 +62,7 @@ export function Showcase() {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-screen w-full bg-coffee-cream flex flex-col md:flex-row items-center justify-center p-8 overflow-hidden"
+      className="relative min-h-screen w-full bg-coffee-cream flex flex-col md:flex-row items-center justify-center py-12 px-4 md:p-8 overflow-hidden"
     >
       <div className="flex flex-col md:flex-row max-w-7xl mx-auto w-full items-center gap-12 md:gap-24 relative z-10">
         {/* Left Content */}
